@@ -1,59 +1,54 @@
-Power Project
+# Sales Insight Dashboard using PowerBI
+## Sales insights project Powerbi Dashboard
 
-Description
+This project I learn from code basics youtube channel. you can find link is below.
 
-Power Project is a data visualization and analytics project created using Power BI. It provides insights into key metrics and trends, allowing users to make data-driven decisions efficiently.
 
-Features
+[code basics youtube Playlist](https://www.youtube.com/watch?v=hhZ62IlTxYs&list=PLeo1K3hjS3uva8pk1FI3iK9kCOKQdz1I9)
 
-Interactive Power BI dashboards
 
-Data filtering and drill-down functionality
+## Problem statement
 
-Visual representations of key performance indicators (KPIs)
+AtliQ Hardware, a company specializing in computer hardware and peripheral manufacturing, operates multiple branches across India. The sales director is struggling to assess business performance and identify the challenges behind the company's declining sales. Whenever he reaches out to regional managers for updates on sales and market conditions, he faces difficulties as they find it challenging to interpret raw data from Excel files. This lack of clarity and data accessibility has become a major source of frustration.
 
-Data-driven insights for better decision-making
 
-Requirements
+## Scope
 
-Microsoft Power BI Desktop (or Power BI Service for online access)
+Developing a dashboard that offers comprehensive insights into revenue generation across different cities over various time periods, highlights the top five customers and top five products, and provides data on the quantity of hardware sold to each customer.
 
-Required data sources (if applicable, mention specific data files or connections)
 
-Installation
+## Steps Followed in this project
 
-Download and install Power BI Desktop.
+1.Retrieved data from MySQL into Power BI for analysis.                                                                                                                                      
+2.Cleaned and transformed data using Power Query.                                                                                                                                            
+3.Executed the ETL process (Extract, Transform, Load).                                                                                                                                        
+4.Created and applied measures to develop insightful visuals in Power BI.                                                                                                                    
+5.Standardized transaction currencies by performing currency conversion.                                                                                                                    
+6.Designed data models and built visualizations for better insights.
 
-Clone this repository or download the .pbix file.
 
-git clone https://github.com/yourusername/Power_Project.git
+###  Insights
 
-Open the Power_Project.pbix file in Power BI Desktop.
+1.A total of 2 million sales resulted in a revenue of 985 million over the years.                                                                                                            
+2.The peak revenue of 42.5 million was achieved in 2018.                                                                                                                                    
+3.Electricalsara stores contributed 413 million in revenue.                                                                                                                                  
+4.Delhi recorded the highest profit share among all markets.                                                                                                                                
+5.The overall profit margin amounted to 24.7 million.                                                                                                                                        
+6.The highest sales quantity, 997K units, was recorded in 2018.
 
-Connect to the required data sources if needed.
 
-Usage
+## Final result 
 
-Open the .pbix file in Power BI Desktop.
+#### Dashboard KPI Page
 
-Interact with the dashboard using filters and visual elements.
+-------
 
-Publish the report to Power BI Service for sharing and collaboration.
+![KPI](https://github.com/user-attachments/assets/092d6cef-61ae-450a-b1a8-dbbb75e7bd80)
 
-Author
+ #### Dashboard Profit Analysis
+ 
+ -----------
+ ![Profit Analysis](https://github.com/user-attachments/assets/add3cbbd-bb30-48cc-b809-ef72ac56bef2)
 
-Your Name - GitHub Profile
 
-License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-Contributing
-
-Feel free to submit pull requests or open issues to improve this project.
-
-Acknowledgments
-
-Power BI Community
-
-Any other resources or contributors
